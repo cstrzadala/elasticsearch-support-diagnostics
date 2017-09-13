@@ -45,3 +45,9 @@ elastic-threads:
   - com.elastic.support.diagnostics.commands.ArchiveResultsCmd
   - com.elastic.support.diagnostics.commands.CleanupCmd
 
+ece:
+  - com.elastic.support.diagnostics.commands.DirectorySetupCmd
+  - com.elastic.support.diagnostics.commands.ECESystemCallsCmd
+  - com.elastic.support.diagnostics.commands.GenerateManifestCmd
+  - com.elastic.support.diagnostics.commands.ArchiveResultsCmd
+  - com.elastic.support.diagnostics.commands.CleanupCmd

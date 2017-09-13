@@ -249,3 +249,14 @@ winOS:
   netstat: "netstat -ano"
   jps: "jps -l -m -v"
   cpu: "wmic CPU"
+
+ECELinuxOS:
+  uname: "uname -a -r"
+  release: "cat /etc/*-release"
+  top: "top -b -n1"
+  process-list: "ps -eaf"
+  df: "df -h"
+  netstat-all: "netstat -anp"
+  netstat-listening: "netstat -ntulpn"
+  iptables: "iptables -L"
+  route: "route -n"
